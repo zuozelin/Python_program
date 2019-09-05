@@ -33,3 +33,40 @@ else：
 
 循环语句：while语句：
                 for语句
+
+    
+映射的类型：字典
+
+字典包含哈希值和指向的对象
+
+{“哈希值”：“对象”}     {'length':120, 'width':80}
+
+.keys  所有字典中的对象
+
+
+
+文件内建函数（不用额外创建）和方法：open()  打开文件
+		                          read()   输入
+		                          readline()  输入一行
+		                          seek()  文件内移动 
+		                          write()  输出
+		                          close()  关闭文件
+open（mode=w）写入     open（mode=r）读取
+open() ——>wirte() ——>close()
+                    read()
+file.seek(5,0)   5：偏移位置（偏移量）   0：从文件开头偏移  1表示从当前位置偏移  2从文件结尾位置偏移
+
+异常是在出现错误时采用正常控制流以外的动作
+异常处理的一般流程：检测到错误，引发异常；对异常进行捕获的操作
+try:
+      <监控异常>
+except Exception[, reason]:
+      <异常处理代码>
+finally:
+      <无论异常是否发生都执行>
+
+line.strip('\n') 对行中的换行符进行删除
+open('file',encoding='GB18030')   encoding为打开文件的编码
+replace('\n', '') 把换行符替换成空格
+
+ 
