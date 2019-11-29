@@ -5,3 +5,12 @@
 {“哈希值”：“对象”}     {'length':120, 'width':80}
 
 .keys  所有字典中的对象
+
+
+
+网络库： urllib库：http协议常用库
+        requests库：http协议常用库
+        BeautifulSoup库：xml格式处理库
+
+gbk：常用汉字编码方式
+utf-8：生僻汉字编码方式
